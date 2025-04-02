@@ -1,4 +1,4 @@
-FROM php:8.3-fpm-bullseye AS base
+FROM php:8.4.6RC1-zts-alpine3.20 AS base
 
 WORKDIR /workspace
 
